@@ -25,17 +25,20 @@ header {
     top: 5%;
     width: 100%;
     text-align: center;
+    font-size: larger;
 }
 
 a {
     color: white;
     text-decoration: none;
     transition:  all .2s ease-in-out;
+    margin: 4px;
+    background-color: rgba(0, 0, 0, 0.575);
 }
 
 a:hover {
     font-size: 150%;
-    text-shadow: 4px 3px 4px rgb(105, 105, 192); 
+    /* text-shadow: 4px 3px 4px rgb(196, 72, 34);  */
 }
 
 main {
@@ -69,7 +72,35 @@ p::first-letter {
     border: 1px solid #ffffff;
 }
 
-div {
+.info {
     margin: 15px 5em;
 }
 
+li {
+    display: inline;
+}
+
+.sidescroll {
+    overflow: scroll;
+    white-space: nowrap;
+}
+
+.sidescroll div {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+table {
+    /* border: 1px solid white; */
+    min-width: 1024px;
+    width: 100%;
+    align-items: center;
+    height: 100%;
+}
+
+th {
+    border: 1px solid white;
+}
