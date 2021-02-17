@@ -35,11 +35,20 @@
   .location {
       background-color: rgb(255, 245, 105);
       position: absolute; 
-      /* top: 59px; */
-      /* left: 16px;  */
-      font-size: 60px;
+      top: -82px;
+      transform-origin: bottom left;
+      /* left: 80px;  */
+      font-size: 70px;
       transform: rotate(90deg);
   }
+
+.location:nth-child(even) {
+    left: 10%;
+  }
+
+.location:nth-child(odd) {
+    right: 0.5%;
+}
 
   .info {
     background-color: rgba(0, 0, 0, 0.74);
@@ -49,6 +58,14 @@
     padding: 100px;
     position: absolute;
     top: 100px;
+  }
+
+  .info:nth-child(odd) {
+      right: 10%;
+  }
+
+  .info:nth-child(even) {
+      left: 10%;
   }
 
   a:hover {
