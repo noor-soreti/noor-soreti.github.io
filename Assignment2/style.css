@@ -1,60 +1,104 @@
 * {
     margin: 0;
     padding: 0;
+  }
+  
+  body {
+    min-height: 100vh;
+  }
+  
+  .main {
+    width: 100%;
+    height: 600px;
+    position: relative;
+    /* background-color: rgb(255, 245, 105); */
 }
-body {
+
+  #backgroundImg {
+    display: block;
+    object-fit: cover;
     width: 100%;
     height: 100%;
+  }
+
+  a {
+      text-decoration: none;
+      color: rgb(0, 0, 0);
+      transition:  all .2s ease-in-out;
+  }
+
+  /* .location {
+      position: absolute;
+      background-color: rgb(255, 245, 105);
+  } */
+
+  .location {
+      background-color: rgb(255, 245, 105);
+      position: absolute; 
+      /* top: 59px; */
+      /* left: 16px;  */
+      font-size: 60px;
+      transform: rotate(90deg);
+  }
+
+  .info {
+    background-color: rgba(0, 0, 0, 0.74);
+    width: 605px;
+    height: 158px;
     color: white;
-}
-
-/*css-tricks.com */
-img {
-    min-height: 100%;
-    min-width: 1024px;
-    width: 100%;
-    height: auto;
-    /* position: fixed; */
-    top: 0;
-    left: 0;
-}
-
-header {
-    font-family: 'Crete Round', serif;
+    padding: 100px;
     position: absolute;
-    top: 5%;
-    width: 100%;
-    text-align: center;
-    font-size: larger;
-}
+    top: 100px;
+  }
+
+  a:hover {
+      font-size: 150%;;
+  }
+
+  footer {
+      position: absolute;
+      bottom: 8px;
+      left: 16px;
+  }
+
+  /* 
+  .info {
+      background-color: rgba(81, 230, 114, 0.836);
+      color: rgb(255, 247, 247);
+      position: absolute;
+      border: 1px solid yellowgreen;
+      width: 100%;
+  }  
+
+  
+
 
 a {
     color: white;
     text-decoration: none;
     transition:  all .2s ease-in-out;
     margin: 4px;
-    background-color: rgba(0, 0, 0, 0.575);
 }
 
 a:hover {
     font-size: 150%;
-    /* text-shadow: 4px 3px 4px rgb(196, 72, 34);  */
 }
 
 main {
     border-style: hidden;
     border-color: black;
-    position: absolute;
     top: 15%;
     height: 70%;
     width: 100%;
-    background: rgba(0, 0, 0, 0.658);
+    background: rgba(0, 0, 0, 0.637);
 }
 
 main > p {
     font-family: 'Crete Round', serif;
     opacity: 0.55;
     font-size: 45px;
+    /* writing-mode: vertical-rl;
+    transform: rotate(180deg); 
 }
 
 p {
@@ -62,10 +106,6 @@ p {
     font-style: normal;
     color: white;
 
-}
-
-p::first-letter {
-    text-transform: uppercase;
 }
 
 .center {
@@ -76,16 +116,13 @@ p::first-letter {
     margin: 15px 5em;
 }
 
-li {
-    display: inline;
-}
 
 .sidescroll {
     overflow: scroll;
     white-space: nowrap;
 }
 
-.sidescroll div {
+.sidescroll > div {
     display: inline-block;
     color: white;
     text-align: center;
@@ -93,14 +130,7 @@ li {
     text-decoration: none;
 }
 
-table {
-    /* border: 1px solid white; */
-    min-width: 1024px;
-    width: 100%;
-    align-items: center;
-    height: 100%;
-}
-
-th {
-    border: 1px solid white;
-}
+footer {
+    width: 40px;
+    height: 30px;
+} */
