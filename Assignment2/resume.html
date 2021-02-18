@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Crete+Round&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>.resume()</title>
 </head>
@@ -15,19 +15,130 @@
             <a href="lists.html">.list()</a>
             <a href="contact.html">.contact()</a>
         </nav>
+        <nav id="navfloat">
+            <a class="button" href="#education">.education()</a>
+            <a class="button" href="#course">.course()</a>
+            <a class="button" href="#resume">.resume()</a>
+        </nav>
     </header>
-    <div class="main">
+    <article class="main">
         <img id='backgroundImg' src="image.jpg" alt="">
         <p class="location">.resume()</p>
-        <div id="welcome" class="info">
+        <section id="education" class="info">
             <h3>Education</h3>
-            <p></p>
-        </div>
-    </div>
-    <div class="main">
+            <table>
+                <tr>
+                    <th>North Toronto Collegiate Institute</th>
+                    <th>2013-2017</th>
+                </tr>
+                <tr>
+                    <th>Centennial CEGEP</th>
+                    <th>2017-2018</th>
+                </tr>
+                <tr>
+                    <th>Ryerson University</th>
+                    <th>2019</th>
+                </tr>
+                <tr>
+                    <th>George Brown College</th>
+                    <th>2021-present</th>
+                </tr>
+            </table>
+        </section>
+    </article>
+    <article class="main">
         <p class="location">.resume()</p>
-        <div id="aboutWeb" class="info"></div>
-    </div>
+        <section id="course" class="info"> 
+            <h3>Computer Programming and Analysis <h5>(hover over course)</h5></h3>
+            <table>
+                <tr>
+                    <th class="dropdown">College English
+                        <ul class="dropdown-content">
+                            <li>Email Assignment</li>
+                            <li>Response 1</li>
+                            <li>Response 2</li>
+                            <li>Critical Analysis Essay</li>
+                        </ul>
+
+                    </th>
+                    <th>COMM 1007</th>
+                </tr>
+                <tr>
+                    <th class="dropdown">IT Essentials
+                        <ul class="dropdown-content">
+                            <li>Labs 1-4</li>
+                            <li>Quiz 1-4</li>
+                        </ul>
+                    </th>
+                    <th>COMP 1151</th>
+                </tr>
+                <tr>
+                    <th class="dropdown">Web Development Fundamentals
+                        <ul class="dropdown-content">
+                            <li>Assignment 1-2</li>
+                            <li>Labs 1-4</li>
+                        </ul>
+                    </th>
+                    <th>COMP 1223</th>
+                </tr>
+                <tr>
+                    <th class="dropdown">Applied Programming Logic
+                        <ul class="dropdown-content">
+                            <li>Discussion Board</li>
+                        </ul>
+                    </th>
+                    <th>COMP 1236</th>
+                </tr>
+                <tr>
+                    <th class="dropdown">Business Application for Information Technology
+                        <ul class="dropdown-content">
+                            <li>Quiz 1-3</li>
+                        </ul>
+                    </th>
+                    <th>GSSC 1045</th>
+                </tr>
+                <tr>
+                    <th class="dropdown">Math for Computer Technology
+                        <ul class="dropdown-content">
+                            <li>Assignment 1</li>
+                            <li>WebAssign Labs 1-2</li>
+                            <li>Test 1</li>
+                        </ul>
+                    </th>
+                    <th>MATH 1162</th>
+                </tr>
+            </table>
+        </section>
+    </article>
+    <article class="main">
+        <img id='backgroundImg' src="image.jpg" alt="">
+        <p class="location">.resume()</p>
+        <section id="resume" class="info">
+            <h3>Work Experience</h3>
+            <table>
+                <tr>
+                    <th>ThaiOneOn</th>
+                    <th>2015</th>
+                </tr>
+                <tr>
+                    <th>Centre Street Deli</th>
+                </tr>
+                <tr>
+                    <th>NoFrills</th>
+                    <th>2017</th>
+                </tr>
+                <tr>
+                    <th>Aroma Espresso Bar</th>
+                    <th>2017</th>
+                </tr>
+                <tr>
+                    <th>Aroma Espresso Bar</th>
+                    <th>2018-2019</th>
+                </tr>
+
+            </table>
+        </section>
+    </article>
     <footer>
             <script src="https://my.gblearn.com/js/loadscript.js"></script>
     </footer>
