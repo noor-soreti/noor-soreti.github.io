@@ -28,6 +28,10 @@
       justify-content: space-between;
   }
 
+  #nav2 {
+    background: rgb(255, 245, 105);
+}
+
 
   a {
       text-decoration: none;
@@ -79,15 +83,9 @@
   a:hover {
       font-size: 150%;;
   }
-
-  .dropdown {
-    /* position: relative; */
-    /* display: inline-block; */
-  }
   
   .dropdown-content {
     display: none;
-    position: absolute;
     background-color: #f9f9f9;
     color: black;
     min-width: 160px;
@@ -96,10 +94,11 @@
     z-index: 1;
   }
 
+ 
   #listID {
       overflow: scroll;
   }
-  
+
   .dropdown:hover .dropdown-content {
     display: block;
   }
@@ -108,82 +107,13 @@
       color: white;
   }
 
+  #map {
+      height: 400px;
+      width: 100%;
+  }
+
   footer {
       position: absolute;
       bottom: 8px;
       left: 16px;
   }
-
-  /* 
-  .info {
-      background-color: rgba(81, 230, 114, 0.836);
-      color: rgb(255, 247, 247);
-      position: absolute;
-      border: 1px solid yellowgreen;
-      width: 100%;
-  }  
-
-  
-
-
-a {
-    color: white;
-    text-decoration: none;
-    transition:  all .2s ease-in-out;
-    margin: 4px;
-}
-
-a:hover {
-    font-size: 150%;
-}
-
-main {
-    border-style: hidden;
-    border-color: black;
-    top: 15%;
-    height: 70%;
-    width: 100%;
-    background: rgba(0, 0, 0, 0.637);
-}
-
-main > p {
-    font-family: 'Crete Round', serif;
-    opacity: 0.55;
-    font-size: 45px;
-    /* writing-mode: vertical-rl;
-    transform: rotate(180deg); 
-}
-
-p {
-    font-weight: normal;
-    font-style: normal;
-    color: white;
-
-}
-
-.center {
-    border: 1px solid #ffffff;
-}
-
-.info {
-    margin: 15px 5em;
-}
-
-
-.sidescroll {
-    overflow: scroll;
-    white-space: nowrap;
-}
-
-.sidescroll > div {
-    display: inline-block;
-    color: white;
-    text-align: center;
-    padding: 14px;
-    text-decoration: none;
-}
-
-footer {
-    width: 40px;
-    height: 30px;
-} */
